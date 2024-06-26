@@ -9,7 +9,7 @@ def main():
     df = df.transpose()
     df = df[['name','tempmin','tempmax']]
     print(df)
-    #cambia el tipo de valor de tempmin y tempmax a float
+
     df['tempmin'] = df['tempmin'].astype(float)
     df['tempmax'] = df['tempmax'].astype(float)
 
